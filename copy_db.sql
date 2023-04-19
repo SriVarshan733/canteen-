@@ -52,7 +52,7 @@ CREATE TABLE `cart` (
   `price` int(10) NOT NULL,
   `quantity` int(10) NOT NULL,
   `image` varchar(100) NOT NULL,
-  `category` text(10) NOT NULL,
+  `category` text(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
